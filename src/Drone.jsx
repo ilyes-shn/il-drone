@@ -13,7 +13,7 @@ const Models = () => {
   useEffect(() => {
     const obj = Object.values(actions)[0]
     obj.play()
-  }, [])
+  })
   
   return <primitive ref={drone} object={result.scene} />
 }
