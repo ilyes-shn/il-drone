@@ -20,7 +20,7 @@ const Models = () => {
 const Drone = () => {
   return (
     <Suspense fallback={null}>
-      <Canvas camera={{ position: [0, 0, 8], fov: 50 }}>
+      <Canvas camera={{ position: [0, -2, 9], fov: 50 }}>
         <OrbitControls autoRotate />
         <ambientLight intensity={1} />
         <directionalLight intensity={1} />
