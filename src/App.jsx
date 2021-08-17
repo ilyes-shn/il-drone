@@ -1,10 +1,10 @@
 import React from 'react'
-import Drone from './Drone';
+import Fly from './Fly';
 
 const App = () => {
   return (
     <div className='app'>
-      <Drone />
+      <Fly />
     </div>
   )
 }
